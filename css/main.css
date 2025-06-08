@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+}
+
+.nav_wrapper {
+    background-color: #3F82FF;
+    padding: 30px 0;
+}
+
+nav {
+    width: 40%; 
+    margin: 0 auto;
+}
+nav ul, .left, .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left, .right {
+    gap: 30px;
+}
+nav ul a {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn_nav {
+    background-color: #FFFFFF;
+    padding: 15px 10px;
+    border-radius: 9px;
+    color: #3F82FF;
+    box-shadow: 3px 3px  .5px rgb(73, 73, 73);
+    transition: .3s ease;
+    font-weight: bold;
+}
+
+.btn_nav:hover {
+    background-color: #D9D9D9;
+    box-shadow: 5px 5px 7px .7px rgb(73, 73, 73);
+    transform: translateY(3px);
+}
+
+.header_content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_slogan {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.header_slogan h1 {
+    text-align: center;
+}
+
+/* ABOUTd */
+
+.about {
+    margin-top: 15%;
+}
+
+
+.about h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #3F82FF;
+}
+
+.about_wrapper {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;               
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.about_content p {
+    font-size: 26px;
+    width: 70%;
+}
+
+
+.about_description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 50px;
+}
+.about_description a, .card_content a {
+    background-color: #3F82FF;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 20px;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px .5px rgb(73, 73, 73);
+    transition: .3s ease;
+}
+
+.about_description a:hover, .card_content a:hover {
+    background-color: #548ffd;
+    box-shadow: 5px 5px 7px .7px rgb(73, 73, 73);
+    transform: translateY(3px);
+}
+.about_description {
+    font-size: 20px;
+}
+
+
+/* CATALOGE */
+
+
+.catalog {
+    margin-top: 100px;
+
+}
+.catalog_wrapper h1 {
+    font-size: 36px;
+    color: #3F82FF;
+    text-align: center;
+}
+
+.filter {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        gap: 50px;
+
+}
+
+
+
+.filter select, .filter input {
+    background: #3F82FF;
+    padding: 10px;
+    border-radius: 11px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    outline: none;
+}
+
+.cataloge_content_wrapper {
+    margin-top: 10%;
+    background-color: #3F82FF;
+    padding: 40px;
+}
+
+.cataloge_content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+
+.cards h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+  
+}
+
+
+
+.card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.card {
+    margin-top: 5%;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 20%;
+    padding: 5px;
+    color: #333333;
+    box-shadow: 2px 2px 2px .1px rgb(159, 192, 255);
+
+}
+
+
+.card_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.card_btn a{
+    width: 100%;
+}
+.img_card img {   
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 100px;
+}
+
+.title_card {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.card_content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+}
+
+.card_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+card_desc h3 {
+    font-size: 18px;
+}
+
+.card_desc p {
+    font-size: 16px;
+}
+
+.card_content a {
+    box-shadow: 2px 2px 2px .1px gray;
+}
+
+/* FILTER END */
+
+
+
+/* SLIDER */
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider_wrapper {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-container {
+    position: relative;
+    width: 1200px;
+    margin: 0 15px;
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+}
+.img-slider {
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    border: none;
+    font-style: 30px;
+    padding: 10px;
+    z-index: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
