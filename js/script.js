@@ -107,7 +107,6 @@ function updateSliderPosition() {
 nextBtn.addEventListener('click', () => {
   currentIndexPopular++;
   if (currentIndexPopular + visibleCards > totalCards) {
-    // За пределами — начать сначала
     currentIndexPopular = 0;
   }
   updateSliderPosition();
@@ -116,7 +115,6 @@ nextBtn.addEventListener('click', () => {
 prevBtn.addEventListener('click', () => {
   currentIndexPopular--;
   if (currentIndexPopular < 0) {
-    // Переход в конец
     currentIndexPopular = totalCards - visibleCards;
   }
   updateSliderPosition();

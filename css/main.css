@@ -1,7 +1,22 @@
+@font-face {
+    font-family: roboto_regular;
+    src: url(../fonts//static/Roboto_Condensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto_medium;
+    src: url(../fonts//static/Roboto-Medium.ttf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: roboto_regular;
+}
+h1, h2, h3 {
+    font-family: roboto_medium;
 }
 ul li {
     list-style: none;
