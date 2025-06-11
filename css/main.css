@@ -180,7 +180,13 @@ nav ul a {
   
 }
 
-
+.content_container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .card_wrapper {
     display: flex;
@@ -188,11 +194,10 @@ nav ul a {
     align-items: center;
     justify-content: space-around;
 }
-.card {
+.card, .card_popular {
     margin-top: 5%;
     background-color: #FFFFFF;
     border-radius: 30px;
-    width: 20%;
     padding: 5px;
     color: #333333;
     box-shadow: 2px 2px 2px .1px rgb(159, 192, 255);
@@ -257,33 +262,35 @@ card_desc h3 {
 
 
 /* SLIDER */
-
-.slider {
+.slider_section {
+    margin-top: 100px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+}
+.title_slider {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.slider_wrapper {
-    margin: 0;
-    min-height: 100vh;
+.section-slider {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 .slider-container {
     position: relative;
-    width: 1200px;
-    margin: 0 15px;
+    width: 900px;
+    margin: 0 auto;
     overflow: hidden;
 }
+
 .slider {
     display: flex;
 }
-.img-slider {
-    min-width: 100%;
-    object-fit: cover;
-}
+
 
 .prev, .next {
     position: absolute;
@@ -306,3 +313,215 @@ card_desc h3 {
     right: 10px;
 }
 
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.dots span {
+    margin-top: 20px;
+    background-color: #D9D4D4;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.dots .active {
+    background-color: #8D8C8C;
+    transition: .5s ease-in-out;
+}
+
+
+.slider img {
+    min-width: 100%;
+    object-fit: cover;
+    transition: .3s ease;
+
+}
+
+.active_slide {
+    animation: a .5s ease-in-out;
+}
+
+@keyframes a {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* POPULAR */
+
+
+.popular_sec {
+    margin-top: 100px;
+    background-color:#3F82FF;
+    padding: 40px;
+}
+
+.popular_sec h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding: 5% 0;
+}
+
+.popular_wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cards_slider {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+}
+
+.cards_popular {
+    position: relative;
+    width: 900px;
+    margin: 0 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.slider_cards_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_popular {
+    min-width: 280px;
+    padding: 0;
+}
+
+.img_card img {
+    border-radius: 30px;
+}
+
+
+
+.card_content h2 {
+    padding: 0 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 2px #00BFA6 solid;
+    border-radius: 15px;
+    padding-bottom: 8px;
+    font-size: 24px;
+}
+
+    
+
+
+.popular_btn_left, .popular_btn_right {
+     background-color: rgba(0,0,0, 0.5);
+    color: white;
+    border: none;
+    font-style: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.popular_btn_left {
+    left: -5px;
+}
+
+
+
+
+
+
+
+
+.slider-container {
+  width: 900px;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.3s ease;
+}
+
+
+.controls {
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 18px;
+}
+
+
+.prev_popular, .next_popular {
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    border: none;
+    font-style: 30px;
+    padding: 10px;
+}
+
+
+.next_popular, .prev_popular {
+    cursor: pointer;
+}
+/* FOOTER */
+
+footer {
+    margin-top: 100px;
+}
+
+.footer_wrapepr {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_footer, .contacts_footer, .nav_footer ul  {
+    flex-direction: column;
+
+}
+.nav_footer, .nav_footer ul, .contacts_footer, .contacts_footer ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+.nav_footer ul, .contacts_footer ul {
+    gap: 10px;
+}
+
+.nav_footer h2, .contacts_footer h2 {
+    color: #3F82FF;
+    font-size: 24px;
+
+}
+
+.nav_footer a {
+    color: #515151;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.number_fotoer, .email_footer, .address_footer {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.number_fotoer img, .email_footer img, .address_footer img {
+    width: 35px;
+    height: 35px;
+}
