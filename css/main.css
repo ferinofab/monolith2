@@ -18,6 +18,11 @@
 h1, h2, h3 {
     font-family: roboto_medium;
 }
+
+.open_menu_nav {
+    display: none;
+}
+
 ul li {
     list-style: none;
 }
@@ -28,7 +33,7 @@ ul li {
 }
 
 nav {
-    width: 40%; 
+    width: 50%; 
     margin: 0 auto;
 }
 nav ul, .left, .right {
@@ -41,7 +46,7 @@ nav ul, .left, .right {
 }
 nav ul a {
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 1.1rem;
     text-decoration: none;
 }
 
@@ -76,6 +81,7 @@ nav ul a {
 
 .header_slogan h1 {
     text-align: center;
+    font-size: 2rem;
 }
 
 /* ABOUTd */
@@ -87,7 +93,7 @@ nav ul a {
 
 .about h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 2rem;
     color: #3F82FF;
 }
 
@@ -107,7 +113,7 @@ nav ul a {
 }
 
 .about_content p {
-    font-size: 26px;
+    font-size: 1.7rem;
     width: 70%;
 }
 
@@ -136,7 +142,11 @@ nav ul a {
     transform: translateY(3px);
 }
 .about_description {
-    font-size: 20px;
+    font-size: 1.5rem;
+}
+
+.about_description a {
+    font-size: 1.1rem;
 }
 
 
@@ -148,7 +158,7 @@ nav ul a {
 
 }
 .catalog_wrapper h1 {
-    font-size: 36px;
+    font-size: 2rem;
     color: #3F82FF;
     text-align: center;
 }
@@ -170,7 +180,7 @@ nav ul a {
     border-radius: 11px;
     border: none;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 1.1rem;
     outline: none;
 }
 
@@ -191,7 +201,7 @@ nav ul a {
 
 .cards h2 {
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 1.4rem;
   
 }
 
@@ -216,8 +226,8 @@ nav ul a {
     padding: 5px;
     color: #333333;
     box-shadow: 2px 2px 2px .1px rgb(159, 192, 255);
-
 }
+
 
 
 .card_btn {
@@ -241,7 +251,7 @@ nav ul a {
 .title_card {
     text-align: center;
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.2rem;
     
 }
 
@@ -261,11 +271,11 @@ nav ul a {
 }
 
 card_desc h3 {
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .card_desc p {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .card_content a {
@@ -381,7 +391,7 @@ card_desc h3 {
 
 .popular_sec h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 2rem;
     color: #FFFFFF;
     padding: 5% 0;
 }
@@ -430,7 +440,7 @@ card_desc h3 {
     border-bottom: 2px #00BFA6 solid;
     border-radius: 15px;
     padding-bottom: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
     
@@ -474,7 +484,7 @@ card_desc h3 {
 
 button {
   padding: 8px 16px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 
@@ -519,13 +529,13 @@ footer {
 
 .nav_footer h2, .contacts_footer h2 {
     color: #3F82FF;
-    font-size: 24px;
+    font-size: 1.5rem;
 
 }
 
 .nav_footer a {
     color: #515151;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
