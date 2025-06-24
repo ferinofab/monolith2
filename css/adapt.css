@@ -25,8 +25,8 @@
   }
 
   .logo_header {
-    width: 120px;
-    height: 100px;
+    width: 140px;
+    height: 120px;
   }
 
   .logo_header img {
@@ -46,7 +46,7 @@
   }
 
   .header_slogan h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .about h2 {
