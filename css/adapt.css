@@ -5,6 +5,9 @@
 }
 
 @media (max-width:800px) {
+    * {
+        display: none;
+    }
   .nav_wrapper {
     display: none;
   }
