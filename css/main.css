@@ -15,6 +15,10 @@
     box-sizing: border-box;
     font-family: roboto_regular;
 }
+.exit_nav {
+    display: none;
+}
+
 h1, h2, h3 {
     font-family: roboto_medium;
 }

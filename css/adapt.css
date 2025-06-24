@@ -4,7 +4,7 @@
   } 
 }
 
-@media (max-width:400px) {
+@media (max-width:800px) {
   .nav_wrapper {
     display: none;
   }
