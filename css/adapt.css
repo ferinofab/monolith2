@@ -46,18 +46,18 @@
   }
 
   .header_slogan h1 {
-    font-size: 2.6rem;
+    font-size: 1.1rem;
   }
 
   .exit_nav {
       display: block;
   }
   .about h2 {
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 
   .about_content p, .about_description a, .about_description p {
-    font-size: 2rem;
+    font-size: 1.4rem;
     width: unset;
   }
 
@@ -84,31 +84,31 @@
   .about_description a {
     padding: 10px;
     border-radius: 8px;
-      font-size: 1.7rem;
+      font-size: 1.1rem;
   }
 
  .catalog_wrapper h1, .title_sec_card h2, .popular_sec h1  {
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 
   .filter select, .filter .filter_btn {
     padding: 10px;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
     border-radius: 7px;
   }
 
   .title_card, .card_desc h3 {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 
   .card_desc p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .card_btn a {
     padding: 8px;
     border-radius: 8px;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
   }
 
   .prev_popular, .next_popular {
@@ -121,19 +121,19 @@
   }
 
   .card_content h2 {
-    font-size: 1.7rem;
+    font-size: 1.1rem;
   }
 
   .card_content P {
-    font-size: 1.7rem;
+    font-size: 1.1rem;
   }
 
   .footer_wrapepr h2 {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
   .footer_wrapepr ul li a, .contacts_footer p {
-    font-size: 1.7rem;
+    font-size: 1.1rem;
   }
 
   .contacts_footer img {
@@ -174,7 +174,7 @@
   }
 
   nav ul a {
-    font-size: 1.7rem;
+    font-size: 1.1rem;
   }
 
   .btn_nav {
